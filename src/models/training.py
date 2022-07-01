@@ -169,7 +169,10 @@ def test_dataset(dataset_name, data, data_reduced_dim, target, pca):
     print('Confusion matrix')
     print(cm)
 
+def main():
+    # run starting functions for both datasets
+    test_dataset('ICMC', fd_icmc, pca_icmc, labels_icmc, g_icmc)
+    test_dataset('ORL', fd_orl, pca_orl, labels_orl, g_orl)
 
-# run starting functions for both datasets
-test_dataset('ICMC', fd_icmc, pca_icmc, labels_icmc, g_icmc)
-test_dataset('ORL', fd_orl, pca_orl, labels_orl, g_orl)
+if __name__ == "__main__":
+    main()

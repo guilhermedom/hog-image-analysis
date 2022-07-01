@@ -186,6 +186,5 @@ def main():
     np.save(pre_orl_hogs + '/labels', np.array(labels_orl))
     print('HOG features and images saved')
 
-
 if __name__ == "__main__":
     main()
