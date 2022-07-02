@@ -119,7 +119,7 @@ def test_dataset(dataset_name, data, data_reduced_dim, target, pca):
     it = 0
 	# start grid search changing number of hidden layers, number of neurons, momentum and learning rate
     for neurons_per_layer in [(10,), (20,), (10, 5), (15, 10)]:
-        for learning_rate in [0.1, 0.5, 10]:
+        for learning_rate in [0.1, 0.5, 1]:
             for momentum in [0.1, 0.5, 0.9]:
                 ind = '%s | learning_rate = %f | momentum = %f' % (str(neurons_per_layer), learning_rate, momentum)
                 it += 1
