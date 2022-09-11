@@ -7,6 +7,7 @@ A data science analysis using K-Nearest Neighbors (KNN) and Multilayer Perceptro
 The HOG features can be visualized as "vectors" inside the image cells, before they are concatenated:
 
 ![hog](https://user-images.githubusercontent.com/33037020/176983585-9c7efeb6-cd62-4c86-b533-9334f01972e9.png)
+
 *Image source: Greche, Latifa, and Najia Es-Sbai. "Automatic system for facial expression recognition based histogram of oriented gradient and normalized cross correlation." 2016 International Conference on Information Technology for Organizations Development (IT4OD). IEEE, 2016.*
 
 HOG has been known to be particularly useful to detect humans in images as pointed out in the paper "Dalal, N., & Triggs, B. (2005, June). Histograms of oriented gradients for human detection. In 2005 IEEE computer society conference on computer vision and pattern recognition (CVPR'05) (Vol. 1, pp. 886-893). Ieee.".
